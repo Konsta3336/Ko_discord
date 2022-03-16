@@ -1,7 +1,6 @@
 RegisterCommand("apua", function()
-    msg("Palvelimen discord:LINKKI TÄHÄN")
-    msg("palvelimen omistaja: OMISTAJAT TÄHÄN ")
+    msg("Älä välitä")
 end, false)
 function msg()
-    TriggerEvent("chatMessage","[Palvelin]", {255,0,0}, text)
+    TriggerEvent("chat:addMessage", "Disordin: discord.me/finroleplay", {255,0,0})
 end
